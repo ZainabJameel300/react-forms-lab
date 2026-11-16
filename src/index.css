@@ -46,7 +46,7 @@ input {
 
 .formDiv {
   width: 60%;
-  border: 1px solid white;
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,6 +56,7 @@ input {
 
 .bookCardsDiv {
   display: flex;
+  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   width: 90%;
@@ -118,6 +119,7 @@ body {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   box-sizing: border-box;
 }
 

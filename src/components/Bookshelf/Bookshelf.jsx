@@ -67,7 +67,7 @@ const[newBook,setNewBook] = useState([
   <div className="bookCardsDiv">
    
     {books.map((oneBook)=>
-    <div key={oneBook.title}>
+    <div className='bookCard' key={oneBook.title}>
       <p>Book title: {oneBook.title} , Author: {oneBook.author}</p>
     </div>
     )}
